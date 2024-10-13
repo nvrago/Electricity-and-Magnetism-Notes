@@ -76,7 +76,23 @@ $\nabla \cdot \mathbf{A} = \frac{1}{r^2} \frac{\partial}{\partial r} (r^2 A_r) +
 The curl of a vector field $\mathbf{A}(r, \theta, \phi)$ is:
 
 <p align="center">
-$\nabla \times \mathbf{A} = \frac{1}{r \sin \theta} \left[ \frac{\partial}{\partial \theta} (A_\phi \sin \theta) - \frac{\partial A_\theta}{\partial \phi} \right] \mathbf{\hat{r}} + \cdots$.
+\[
+\nabla \times \mathbf{A} =
+\frac{1}{r \sin \theta}
+\begin{vmatrix}
+\mathbf{\hat{r}} & r\mathbf{\hat{\theta}} & r\sin\theta\mathbf{\hat{\phi}} \\
+\frac{\partial}{\partial r} & \frac{\partial}{\partial \theta} & \frac{\partial}{\partial \phi} \\
+A_r & rA_{\theta} & r\sin\theta A_{\phi}
+\end{vmatrix}
+=
+\frac{1}{r \sin \theta} \left[
+\frac{\partial}{\partial \theta} \left( A_\phi \sin \theta \right) - \frac{\partial A_\theta}{\partial \phi}
+\right] \mathbf{\hat{r}} + \frac{1}{r} \left[
+\frac{1}{\sin \theta} \frac{\partial A_r}{\partial \phi} - \frac{\partial}{\partial r} \left( r A_\phi \right)
+\right] \mathbf{\hat{\theta}} + \frac{1}{r} \left[
+\frac{\partial}{\partial r} \left( r A_\theta \right) - \frac{\partial A_r}{\partial \theta}
+\right] \mathbf{\hat{\phi}}
+\]
 </p>
 
 ### Gradient in Cylindrical Coordinates
