@@ -79,9 +79,9 @@ In many physical systems, charge is distributed continuously, rather than being 
 
 For a charge distribution with **volume charge density** $\rho(\mathbf{r})$, the electric field at a point $\mathbf{r}$ is:
 
-$$
-\mathbf{E}(\mathbf{r}) = \frac{1}{4 \pi \epsilon_0} \int \frac{\rho(\mathbf{r}')}{|\mathbf{r} - \mathbf{r}'|^2} \hat{\mathbf{r}}_{r' \to r} \, d^3r'
-$$
+<p assign="center">
+$$\mathbf{E}(\mathbf{r}) = \frac{1}{4 \pi \epsilon_0} \int \frac{\rho(\mathbf{r}')}{|\mathbf{r} - \mathbf{r}'|^2} \hat{\mathbf{r}}_{r' \to r} \, d^3r'$$
+</p>
 
 Where:
 - $\rho(\mathbf{r}')$ is the charge density at position $\mathbf{r}'$.
@@ -90,16 +90,16 @@ Where:
 #### Surface and Line Charge Distributions:
 - For a **surface charge density** $\sigma(\mathbf{r})$ distributed over a surface, the electric field is:
 
-  $$
-  \mathbf{E}(\mathbf{r}) = \frac{1}{4 \pi \epsilon_0} \int_S \frac{\sigma(\mathbf{r}')}{|\mathbf{r} - \mathbf{r}'|^2} \hat{\mathbf{r}}_{r' \to r} \, dA'
-  $$
-
+  <p assign="center">
+  $$\mathbf{E}(\mathbf{r}) = \frac{1}{4 \pi \epsilon_0} \int_S \frac{\sigma(\mathbf{r}')}{|\mathbf{r} - \mathbf{r}'|^2} \hat{\mathbf{r}}_{r' \to r} \, dA'$$
+  </p>
+  
 - For a **line charge density** $\lambda(\mathbf{r})$ distributed along a line, the electric field is:
 
-  $$
-  \mathbf{E}(\mathbf{r}) = \frac{1}{4 \pi \epsilon_0} \int_L \frac{\lambda(\mathbf{r}')}{|\mathbf{r} - \mathbf{r}'|^2} \hat{\mathbf{r}}_{r' \to r} \, dl'
-  $$
-
+  <p assign="center">
+  $$\mathbf{E}(\mathbf{r}) = \frac{1}{4 \pi \epsilon_0} \int_L \frac{\lambda(\mathbf{r}')}{|\mathbf{r} - \mathbf{r}'|^2} \hat{\mathbf{r}}_{r' \to r} \, dl'$$
+  </p>
+  
 #### Example: Uniformly Charged Rod
 Consider a uniformly charged rod of length $L$ and total charge $Q$. The charge density is $\lambda = Q/L$. The electric field at a point $\mathbf{r}$ due to the rod can be calculated by integrating Coulomb’s law along the length of the rod.
 
@@ -111,9 +111,9 @@ Consider a uniformly charged rod of length $L$ and total charge $Q$. The charge 
 
 In **Landau’s Electrodynamics of Continuous Media**, the behavior of electric fields in **continuous media** is explored. When charges are placed in dielectric materials, the **electric displacement field** $\mathbf{D}$ is introduced to account for the effects of the material's polarization. The displacement field relates to the electric field $\mathbf{E}$ and the **polarization** $\mathbf{P}$ of the medium as follows:
 
-$$
-\mathbf{D} = \epsilon_0 \mathbf{E} + \mathbf{P}
-$$
+<p assign="center">
+$$\mathbf{D} = \epsilon_0 \mathbf{E} + \mathbf{P}$$
+</p>
 
 #### Applications:
 In dielectrics, the field due to **bound charges** (from polarization) and **free charges** are treated separately. Landau’s approach extends the analysis of electrostatic fields to media with complex internal structures, such as anisotropic dielectrics.
@@ -135,17 +135,17 @@ In the **Feynman Lectures**, Feynman emphasizes the conceptual understanding of 
 In earlier editions of **Griffiths**, there is a detailed discussion on **spherical charge distributions**, particularly the electric field inside and outside a uniformly charged sphere. Using **Gauss’s law**, we can show:
 
 - **Outside the Sphere**: The electric field behaves as if all the charge were concentrated at the center.
-  
-  $$
-  \mathbf{E} = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2} \hat{\mathbf{r}} \quad \text{for} \, r > R
-  $$
 
+  <p assign="center">
+  $$\mathbf{E} = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2} \hat{\mathbf{r}} \quad \text{for} \, r > R$$
+  </p>
+  
 - **Inside the Sphere**: The field increases linearly with distance from the center.
 
-  $$
-  \mathbf{E} = \frac{1}{4 \pi \epsilon_0} \frac{Qr}{R^3} \hat{\mathbf{r}} \quad \text{for} \, r < R
-  $$
-
+  <p assign="center">
+  $$\mathbf{E} = \frac{1}{4 \pi \epsilon_0} \frac{Qr}{R^3} \hat{\mathbf{r}} \quad \text{for} \, r < R $$
+  </p> 
+  
 This approach is important for analyzing charge distributions with spherical symmetry, such as in **conducting spheres** and **charged shells**.
 
 ---
