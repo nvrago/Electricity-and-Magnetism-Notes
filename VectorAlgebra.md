@@ -235,9 +235,7 @@ A **pseudovector** (or axial vector) behaves differently from an ordinary vector
 
 - **Mathematical Definition**: A vector $\mathbf{V}$ is a pseudovector if it transforms as follows under inversion:
   
-  $$
-  \mathbf{V'} = - \mathbf{V} \quad (\text{under inversion of coordinates,} \mathbf{r} \to -\mathbf{r})
-  $$
+  $$\mathbf{V'} = - \mathbf{V} \quad (\text{under inversion of coordinates,} \mathbf{r} \to -\mathbf{r})$$
 
   In contrast, true vectors reverse their components under inversion, but pseudovectors like $\mathbf{B}$ retain their directionality.
   
