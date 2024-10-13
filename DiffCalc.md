@@ -225,11 +225,12 @@ In curved or non-Cartesian coordinate systems, the derivatives of vector fields 
   - A **covariant derivative** uses **Christoffel symbols** to account for the varying basis vectors in curvilinear coordinates, ensuring that the derivative transforms correctly under coordinate transformations.
 
 The covariant derivative of a vector field $\mathbf{V}$ in curvilinear coordinates is given by:
-  
-$\nabla_j V^i = \partial_j V^i + \Gamma^i_{jk} V^k$
-
+```math
+\nabla_j V^i = \partial_j V^i + \Gamma^i_{jk} V^k
+```
+<p align="center">
 where $\Gamma^i_{jk}$ are the Christoffel symbols.
-
+</p>
 #### Physical Significance:
 This differentiation is crucial in electromagnetism when working in **curved spacetime** or **non-Cartesian coordinates** such as spherical or cylindrical systems. Covariant derivatives ensure that physical laws remain consistent in these coordinates.
 
@@ -244,8 +245,9 @@ A **Lie derivative** describes how a vector field changes along the flow of anot
 
 - **Mathematical Insight**: For a vector field $\mathbf{V}$ and a flow described by the vector field $\mathbf{F}$, the **Lie derivative** $L_{\mathbf{F}} \mathbf{V}$ gives the rate of change of $\mathbf{V}$ along $\mathbf{F}$:
 <br>
-  $L_{\mathbf{F}} \mathbf{V} = [\mathbf{F}, \mathbf{V}] = \mathbf{F} \cdot \nabla \mathbf{V} - \mathbf{V} \cdot \nabla \mathbf{F}$
-
+```math
+$L_{\mathbf{F}} \mathbf{V} = [\mathbf{F}, \mathbf{V}] = \mathbf{F} \cdot \nabla \mathbf{V} - \mathbf{V} \cdot \nabla \mathbf{F}$
+```
 #### Physical Significance:
 In electromagnetism, **Lie derivatives** help describe the time evolution and **flow of energy** in fields, especially in time-varying fields and waves.
 
