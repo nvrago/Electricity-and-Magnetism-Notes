@@ -5,6 +5,7 @@
 Differentiation is one of the fundamental operations in vector calculus, crucial for describing the rate of change of physical quantities in electrodynamics. In this section, we primarily focus on how vector fields vary with position and time.
 
 For a scalar function $$f(x)$$, the derivative is: <br>
+
 $$
 \frac{df}{dx} = \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x}
 $$
