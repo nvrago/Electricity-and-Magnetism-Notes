@@ -78,3 +78,11 @@
   - [2.1.6 Feynman’s Intuition on Electric Fields](./electric_field.md#216-feynmans-intuition-on-electric-fields)
   - [2.1.7 Electric Fields from Spherical Charge Distributions (Griffiths)](./electric_field.md#217-electric-fields-from-spherical-charge-distributions-griffiths)
 
+- [2.2 Divergence and Curl of Electrostatic Fields](./divergence_curl_electrostatic.md)
+  - [2.2.1 Field Lines, Flux, and Gauss’s Law](./divergence_curl_electrostatic.md#221-field-lines-flux-and-gausss-law)
+  - [2.2.2 The Divergence of E](./divergence_curl_electrostatic.md#222-the-divergence-of-e)
+  - [2.2.3 Applications of Gauss’s Law](./divergence_curl_electrostatic.md#223-applications-of-gausss-law)
+  - [2.2.4 The Curl of E](./divergence_curl_electrostatic.md#224-the-curl-of-e)
+  - [2.2.5 The Displacement Field and Gauss’s Law in Media (Landau)](./divergence_curl_electrostatic.md#225-the-displacement-field-and-gausss-law-in-media-landau)
+  - [2.2.6 Feynman’s Insights on Electric Flux and Field Lines](./divergence_curl_electrostatic.md#226-feynmans-insights-on-electric-flux-and-field-lines)
+  - [2.2.7 Field Lines and Potential in Earlier Editions of Griffiths](./divergence_curl_electrostatic.md#227-field-lines-and-potential-in-earlier-editions-of-griffiths)
