@@ -274,7 +274,7 @@ The **retarded potential** describes how electromagnetic signals propagate with 
   <p align="center">
   $\phi(\mathbf{r}, t) = \frac{1}{4\pi \epsilon_0} \int \frac{\rho(\mathbf{r}', t_r)}{|\mathbf{r} - \mathbf{r}'|} d^3r'$
   </p>
-  <br>
+  
   <p align="center">
   where $t_r = t - \frac{|\mathbf{r} - \mathbf{r}'|}{c}$ is the **retarded time**.
   </p>
