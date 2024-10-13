@@ -11,9 +11,9 @@ Spherical coordinates $(r, \theta, \phi)$ are particularly useful in problems wi
 
   The position vector $\mathbf{r}$ in spherical coordinates is expressed as:
 
-  ```math
+  ``math
   \mathbf{r} = r \mathbf{\hat{r}} = r (\sin \theta \cos \phi \mathbf{\hat{i}} + \sin \theta \sin \phi \mathbf{\hat{j}} + \cos \theta \mathbf{\hat{k}})
-  ```
+  ``
 
 - **Differential Length Element**:
 
