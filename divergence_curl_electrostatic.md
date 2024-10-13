@@ -87,22 +87,16 @@ For a long, uniformly charged cylinder with charge per unit length $\lambda$, th
 
 - **Outside the cylinder** ($r > R$):
 
-  $$ 
-  \mathbf{E} = \frac{\lambda}{2 \pi \epsilon_0 r} \hat{\mathbf{r}} 
-  $$
+  $$\mathbf{E} = \frac{\lambda}{2 \pi \epsilon_0 r} \hat{\mathbf{r}}$$
 
 - **Inside the cylinder** ($r < R$):
 
-  $$ 
-  \mathbf{E} = 0 
-  $$
+  $$\mathbf{E} = 0$$
 
 ### 3. Planar Symmetry
 For an infinite plane with uniform surface charge density $\sigma$, the electric field near the plane is:
 
-$$ 
-\mathbf{E} = \frac{\sigma}{2 \epsilon_0} \hat{\mathbf{n}} 
-$$
+$$\mathbf{E} = \frac{\sigma}{2 \epsilon_0} \hat{\mathbf{n}}$$
 
 These examples highlight the power of Gauss’s law in systems with symmetry, where it drastically simplifies the calculation of the electric field.
 
