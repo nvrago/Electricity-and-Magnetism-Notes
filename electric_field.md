@@ -90,16 +90,12 @@ Where:
 #### Surface and Line Charge Distributions:
 - For a **surface charge density** $\sigma(\mathbf{r})$ distributed over a surface, the electric field is:
 
-  <p assign="center">
   $$\mathbf{E}(\mathbf{r}) = \frac{1}{4 \pi \epsilon_0} \int_S \frac{\sigma(\mathbf{r}')}{|\mathbf{r} - \mathbf{r}'|^2} \hat{\mathbf{r}}_{r' \to r} \, dA'$$
-  </p>
   
 - For a **line charge density** $\lambda(\mathbf{r})$ distributed along a line, the electric field is:
 
-  <p assign="center">
   $$\mathbf{E}(\mathbf{r}) = \frac{1}{4 \pi \epsilon_0} \int_L \frac{\lambda(\mathbf{r}')}{|\mathbf{r} - \mathbf{r}'|^2} \hat{\mathbf{r}}_{r' \to r} \, dl'$$
-  </p>
-  
+    
 #### Example: Uniformly Charged Rod
 Consider a uniformly charged rod of length $L$ and total charge $Q$. The charge density is $\lambda = Q/L$. The electric field at a point $\mathbf{r}$ due to the rod can be calculated by integrating Coulomb’s law along the length of the rod.
 
