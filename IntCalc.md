@@ -105,11 +105,8 @@ Volume integrals are also critical in analyzing how fields propagate through dif
 
 <br>
 
-## 1.3.2 The Fundamental Theorem of Calculus
+## 1.3.2 The Fundamental Theorem for Gradients
 
-The **Fundamental Theorem of Calculus** relates the value of a function at the boundaries of an interval to the integral of its derivative over that interval. In vector calculus, this generalizes to several important theorems: the **Gradient Theorem**, **Stokes' Theorem**, and **Gauss's Theorem** (also known as the Divergence Theorem).
-
-### Gradient Theorem
 The **Gradient Theorem** relates the line integral of the gradient of a scalar field $f$ between two points $A$ and $B$ to the difference in the values of $f$ at those points:
 
 $$
@@ -130,35 +127,7 @@ Feynman explains the **Gradient Theorem** in the context of potential energy and
 
 <br>
 
-## 1.3.3 Stokes' Theorem
-
-**Stokes' Theorem** relates the line integral of a vector field $\mathbf{F}$ around a closed curve $C$ to the surface integral of the curl of $\mathbf{F}$ over the surface $S$ bounded by $C$:
-
-$$
-\oint_C \mathbf{F} \cdot d\mathbf{l} = \int_S (\mathbf{\nabla} \times \mathbf{F}) \cdot d\mathbf{A}
-$$
-
-### Physical Significance:
-Stokes' theorem is fundamental in **Faraday's law of induction**, which states that the curl of the electric field is related to the time derivative of the magnetic flux. In integral form, Faraday's law is:
-
-$$
-\oint_C \mathbf{E} \cdot d\mathbf{l} = - \frac{d}{dt} \int_S \mathbf{B} \cdot d\mathbf{A}
-$$
-
-This shows how a changing magnetic flux through a surface $S$ induces an emf in the loop $C$ that bounds the surface.
-
-#### Insight from Feynman:
-Feynman uses **Stokes' theorem** to demonstrate how **circulating electric fields** are induced by time-varying magnetic fields. In his discussion of **electromagnetic induction**, he applies Stokes' theorem to explain the connection between the curl of the electric field and the induced emf around a loop:
-
-$$
-\oint_C \mathbf{E} \cdot d\mathbf{l} = -\frac{d\Phi_B}{dt}
-$$
-
-Feynman uses examples like rotating coils in magnetic fields to demonstrate the physical meaning of this theorem and how it governs real-world devices like **electric generators**.
-
-<br>
-
-## 1.3.4 Gauss's Theorem (Divergence Theorem)
+## 1.3.3 The Fundamental Theorem for Divergences
 
 **Gauss's Theorem** (also known as the **Divergence Theorem**) relates the flux of a vector field $\mathbf{F}$ through a closed surface $S$ to the volume integral of the divergence of $\mathbf{F}$ over the volume $V$ enclosed by $S$:
 
@@ -186,9 +155,72 @@ In magnetostatics, Gauss's theorem is applied to calculate the magnetic flux thr
 
 <br>
 
----
+## 1.3.4 The Fundamental Theorem for Curls
 
-### Conclusion:
-The enriched understanding of **integral calculus** in vector fields provides a solid foundation for solving complex problems in electrodynamics. From line integrals in Faraday’s law to surface and volume integrals in Gauss’s law, these mathematical tools allow us to analyze the behavior of electric and magnetic fields in different physical settings.
+**Stokes' Theorem** relates the line integral of a vector field $\mathbf{F}$ around a closed curve $C$ to the surface integral of the curl of $\mathbf{F}$ over the surface $S$ bounded by $C$:
 
-Insights from both **Landau** and **Feynman** provide deeper physical meaning behind these mathematical theorems, with applications ranging from dielectric materials to electromagnetic induction. Let me know if any further clarifications or details are needed!
+$$
+\oint_C \mathbf{F} \cdot d\mathbf{l} = \int_S (\mathbf{\nabla} \times \mathbf{F}) \cdot d\mathbf{A}
+$$
+
+### Physical Significance:
+Stokes' theorem is fundamental in **Faraday's law of induction**, which states that the curl of the electric field is related to the time derivative of the magnetic flux. In integral form, Faraday's law is:
+
+$$
+\oint_C \mathbf{E} \cdot d\mathbf{l} = - \frac{d}{dt} \int_S \mathbf{B} \cdot d\mathbf{A}
+$$
+
+This shows how a changing magnetic flux through a surface $S$ induces an emf in the loop $C$ that bounds the surface.
+
+#### Insight from Feynman:
+Feynman uses **Stokes' theorem** to demonstrate how **circulating electric fields** are induced by time-varying magnetic fields. In his discussion of **electromagnetic induction**, he applies Stokes' theorem to explain the connection between the curl of the electric field and the induced emf around a loop:
+
+$$
+\oint_C \mathbf{E} \cdot d\mathbf{l} = -\frac{d\Phi_B}{dt}
+$$
+
+Feynman uses examples like rotating coils in magnetic fields to demonstrate the physical meaning of this theorem and how it governs real-world devices like **electric generators**.
+
+<br>
+
+## 1.3.5 Integration by Parts
+
+In vector calculus, **integration by parts** is used to simplify integrals of products of functions. For vector fields, integration by parts applies in the following form:
+
+$$
+\int_V \mathbf{\nabla} \cdot (\mathbf{F} \phi) dV = \int_V \phi (\mathbf{\nabla} \cdot \mathbf{F}) dV + \int_V \mathbf{F} \cdot (\mathbf{\nabla} \phi) dV
+$$
+
+Where $\mathbf{F}$ is a vector field and $\phi$ is a scalar function. This technique is particularly useful in applying **boundary conditions** in electrodynamics.
+
+<br>
+
+## 1.3.6 The Dirac Delta Function
+
+The **Dirac delta function** is a generalized function used to model point charges or localized sources in electrodynamics. It is defined by the property:
+
+$$
+\delta(x) = \begin{cases} 
+\infty & \text{if } x = 0 \\ 
+0 & \text{if } x \neq 0 
+\end{cases}
+$$
+
+And satisfies the integral identity:
+
+$$
+\int_{-\infty}^{\infty} \delta(x) \, dx = 1
+$$
+
+### Physical Significance:
+In electrodynamics, the Dirac delta function is used to represent **point charges**. The charge density $\rho(\mathbf{r})$ of a point charge $q$ located at $\mathbf{r}_0$ is given by:
+
+$$
+\rho(\mathbf{r}) = q \delta(\mathbf{r} - \mathbf{r}_0)
+$$
+
+This allows us to incorporate point sources into the mathematical framework of electromagnetism.
+
+#### Insight from Landau:
+Landau discusses the Dirac delta function in the context of **point sources** in fields and how this distribution simplifies the treatment of isolated charges. The delta function's ability to localize quantities at a point is critical in solving field equations in both electrostatics and magnetostatics.
+
