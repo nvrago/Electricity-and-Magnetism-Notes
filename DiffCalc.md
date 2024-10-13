@@ -224,11 +224,11 @@ In curved or non-Cartesian coordinate systems, the derivatives of vector fields 
   - A **contravariant derivative** refers to components that transform inversely to coordinate transformations.
   - A **covariant derivative** uses **Christoffel symbols** to account for the varying basis vectors in curvilinear coordinates, ensuring that the derivative transforms correctly under coordinate transformations.
 
-  The covariant derivative of a vector field $\mathbf{V}$ in curvilinear coordinates is given by:
-  $$
-  \nabla_j V^i = \partial_j V^i + \Gamma^i_{jk} V^k
-  $$
-  where $\Gamma^i_{jk}$ are the Christoffel symbols.
+The covariant derivative of a vector field $\mathbf{V}$ in curvilinear coordinates is given by:
+  
+$\nabla_j V^i = \partial_j V^i + \Gamma^i_{jk} V^k$
+
+where $\Gamma^i_{jk}$ are the Christoffel symbols.
 
 #### Physical Significance:
 This differentiation is crucial in electromagnetism when working in **curved spacetime** or **non-Cartesian coordinates** such as spherical or cylindrical systems. Covariant derivatives ensure that physical laws remain consistent in these coordinates.
