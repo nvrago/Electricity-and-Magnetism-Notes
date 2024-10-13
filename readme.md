@@ -1,4 +1,4 @@
-# ⚡ Electricity and Magnetism Notes ⚡
+# Electricity and Magnetism Notes
 
 ---
 
