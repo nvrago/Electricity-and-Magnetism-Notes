@@ -231,9 +231,9 @@ Landau discusses the Dirac delta function in the context of **point sources** in
 The **Helmholtz theorem** states that any sufficiently smooth vector field can be decomposed into an **irrotational (curl-free)** and a **solenoidal (divergence-free)** component.
 
 - **Mathematical Formulation**:
-  $$
+  ```math
   \mathbf{F} = -\nabla \phi + \nabla \times \mathbf{A}
-  $$
+  ```
   where $\phi$ is a scalar potential (representing the irrotational component) and $\mathbf{A}$ is the vector potential (representing the solenoidal component).
 
 #### Physical Significance:
