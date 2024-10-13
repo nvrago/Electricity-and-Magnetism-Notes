@@ -272,11 +272,13 @@ The **retarded potential** describes how electromagnetic signals propagate with 
   The scalar potential at a point due to a time-varying source is given by:
 
   <p align="center">
-  \phi(\mathbf{r}, t) = \frac{1}{4\pi \epsilon_0} \int \frac{\rho(\mathbf{r}', t_r)}{|\mathbf{r} - \mathbf{r}'|} d^3r'
+  $\phi(\mathbf{r}, t) = \frac{1}{4\pi \epsilon_0} \int \frac{\rho(\mathbf{r}', t_r)}{|\mathbf{r} - \mathbf{r}'|} d^3r'$
+  </p>
+  <br>
+  <p align="center">
+  where $t_r = t - \frac{|\mathbf{r} - \mathbf{r}'|}{c}$ is the **retarded time**.
   </p>
   
-  where $t_r = t - \frac{|\mathbf{r} - \mathbf{r}'|}{c}$ is the **retarded time**.
-
 #### Physical Significance:
 The retarded potential is essential for understanding the **propagation of electromagnetic waves** and **radiation** from accelerating charges.
 
