@@ -97,3 +97,10 @@
   - [2.3.7 Feynman on Electric Potential and Energy](./electric_potential.md#237-feynman-on-electric-potential-and-energy)
   - [2.3.8 Multipole Expansion of the Potential (Griffiths)](./electric_potential.md#238-multipole-expansion-of-the-potential-griffiths)
 
+- [2.4 Work and Energy in Electrostatics](./work_energy_electrostatics.md)
+  - [2.4.1 The Work It Takes to Move a Charge](./work_energy_electrostatics.md#241-the-work-it-takes-to-move-a-charge)
+  - [2.4.2 The Energy of a Point Charge Distribution](./work_energy_electrostatics.md#242-the-energy-of-a-point-charge-distribution)
+  - [2.4.3 The Energy of a Continuous Charge Distribution](./work_energy_electrostatics.md#243-the-energy-of-a-continuous-charge-distribution)
+  - [2.4.4 Comments on Electrostatic Energy](./work_energy_electrostatics.md#244-comments-on-electrostatic-energy)
+  - [2.4.5 Energy in Continuous Media (Landau)](./work_energy_electrostatics.md#245-energy-in-continuous-media-landau)
+  - [2.4.6 Feynman on Electrostatic Energy](./work_energy_electrostatics.md#246-feynman-on-electrostatic-energy)
