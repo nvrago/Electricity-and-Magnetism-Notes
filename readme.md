@@ -1,6 +1,12 @@
-# Electricity and Magnetism Notes
+# ⚡ Electricity and Magnetism Notes ⚡
 
-## Table of contents
-### Section 1: Vector Analysis
-#### [1.1 Vector Algebra](./VectorAlgebra.md)
-- [Application_Deployment_Notes](./deployment.md)
+---
+
+## 📖 Table of Contents
+### [Section 1: Vector Analysis](./VectorAlgebra.md)
+- [1.1 Vector Algebra](#11-vector-algebra)
+  - [1.1.1 Vector Operations](#111-vector-operations)
+  - [1.1.2 Vector Algebra: Component Form](#112-vector-algebra-component-form)
+  - [1.1.3 Triple Products](#113-triple-products)
+  - [1.1.4 Position, Displacement, and Separation Vectors](#114-position-displacement-and-separation-vectors)
+  - [1.1.5 How Vectors Transform](#115-how-vectors-transform)
