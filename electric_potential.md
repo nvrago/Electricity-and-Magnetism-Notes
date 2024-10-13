@@ -8,9 +8,7 @@ The **electric potential** is a scalar quantity that simplifies the analysis of 
 
 The **electric field** $\mathbf{E}$ is related to the electric potential $\phi$ through the following relationship:
 
-$$
-\mathbf{E} = -\nabla \phi
-$$
+$$\mathbf{E} = -\nabla \phi$$
 
 The electric potential is a scalar field whose gradient gives the electric field. This relationship holds for **electrostatic fields**, which are conservative, meaning that the work done by the electric field on a charge moving between two points is independent of the path taken.
 
@@ -18,18 +16,14 @@ The electric potential is a scalar field whose gradient gives the electric field
 
 The **potential difference** $V_{12}$ between two points 1 and 2 is defined as the line integral of the electric field:
 
-$$
-V_{12} = \phi(\mathbf{r}_1) - \phi(\mathbf{r}_2) = -\int_{\mathbf{r}_1}^{\mathbf{r}_2} \mathbf{E} \cdot d\mathbf{l}
-$$
+$$V_{12} = \phi(\mathbf{r}_1) - \phi(\mathbf{r}_2) = -\int_{\mathbf{r}_1}^{\mathbf{r}_2} \mathbf{E} \cdot d\mathbf{l}$$
 
 In practice, we often define the potential relative to some reference point, often taken at infinity where the potential is zero.
 
 #### Example:
 For a point charge $q$, the electric potential at a distance $r$ from the charge is:
 
-$$
-\phi(r) = \frac{1}{4 \pi \epsilon_0} \frac{q}{r}
-$$
+$$\phi(r) = \frac{1}{4 \pi \epsilon_0} \frac{q}{r}$$
 
 ---
 
@@ -43,9 +37,7 @@ The electric potential $\phi$ is not unique because we can always add a constant
 
 The fact that electrostatic fields are conservative implies that the **line integral** of the electric field around any closed loop is zero:
 
-$$
-\oint \mathbf{E} \cdot d\mathbf{l} = 0
-$$
+$$\oint \mathbf{E} \cdot d\mathbf{l} = 0$$
 
 This result follows from the fact that $\mathbf{E}$ is the gradient of a scalar function $\phi$. As a consequence, the potential difference between two points depends only on the endpoints, not on the path taken between them.
 
