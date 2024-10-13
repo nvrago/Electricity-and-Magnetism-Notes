@@ -235,17 +235,17 @@ A **pseudovector** (or axial vector) behaves differently from an ordinary vector
 
 - **Mathematical Definition**: A vector $\mathbf{V}$ is a pseudovector if it transforms as follows under inversion:
   
-  ```
-  \mathbf{V'} = - \mathbf{V} \quad (\text{under inversion of coordinates,} \mathbf{r} \to -\mathbf{r})
-  ```
+  <p align="center">
+  $\mathbf{V'} = - \mathbf{V} \quad (\text{under inversion of coordinates,} \mathbf{r} \to -\mathbf{r})$
+  </p>
+  
   In contrast, true vectors reverse their components under inversion, but pseudovectors like $\mathbf{B}$ retain their directionality.
   
 - **Physical Significance**: Pseudovectors arise naturally in situations involving **rotational symmetry** and **cross products**. For example, the magnetic field $\mathbf{B}$ produced by a current $\mathbf{I}$ can be written as:
-  
-  ```
-  \mathbf{B} \propto \mathbf{r} \times \mathbf{I}
-  ```
 
+  <p align="center">
+  $\mathbf{B} \propto \mathbf{r} \times \mathbf{I}$
+  </p>
   which shows its dependence on the cross product.
 
 #### Insight from Landau:
