@@ -135,4 +135,8 @@ $$
 $$
 
 #### Insight from Landau:
-In continuous media, the Laplacian is a key operator in describing diffusion processes (e.g
+In continuous media, the Laplacian is a key operator in describing diffusion processes (e.g., heat conduction) and how electromagnetic fields propagate through different media. The Laplacian operator helps describe the spatial variation of fields in complex geometries.
+
+#### Further from Feynman:
+Feynman shows how second derivatives are important when analyzing the stability and equilibrium of electric potentials. The Laplacian provides insight into how the potential behaves in charge-free regions, critical in boundary-value problems.
+
