@@ -4,13 +4,13 @@
 
 Differentiation is one of the fundamental operations in vector calculus, crucial for describing the rate of change of physical quantities in electrodynamics. In this section, we primarily focus on how vector fields vary with position and time.
 
-For a scalar function $f(x)$, the derivative is:
+For a scalar function $$f(x)$$, the derivative is: <br>
 $$
 \frac{df}{dx} = \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x}
 $$
 
 ### Application in Electrodynamics:
-The **electric field** $\mathbf{E}$ and **magnetic field** $\mathbf{B}$ are often expressed as functions of position and time. The ordinary derivative is key to understanding time evolution and spatial variation in simpler, one-dimensional problems, such as the motion of charged particles in uniform fields.
+The **electric field** $$\mathbf{E}$$ and **magnetic field** $$\mathbf{B}$$ are often expressed as functions of position and time. The ordinary derivative is key to understanding time evolution and spatial variation in simpler, one-dimensional problems, such as the motion of charged particles in uniform fields.
 
 #### Insight from Feynman:
 Feynman emphasizes that ordinary derivatives help build intuition for understanding more complex systems, such as electromagnetic waves, where a small change in space or time leads to changes in field magnitudes. He also uses simple derivative concepts to explain **induced electromotive force (emf)** in changing magnetic fields.
