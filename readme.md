@@ -37,5 +37,20 @@
   - [1.3.8 Green’s Theorems and Boundary Value Problems](./IntCalc.md#138-greens-theorems-and-boundary-value-problems)
   - [1.3.9 The Retarded Potential](./IntCalc.md#139-the-retarded-potential)
 
+- [1.4 Curvilinear Coordinates](./curvcoord.md)
+  - [1.4.1 Spherical Coordinates](./curvcoord.md#141-spherical-coordinates)
+  - [1.4.2 Cylindrical Coordinates](./curvcoord.md#142-cylindrical-coordinates)
+  - [1.4.3 Gradient, Divergence, and Curl in Curvilinear Coordinates](./curvcoord.md#143-gradient-divergence-and-curl-in-curvilinear-coordinates)
+    - [Gradient in Spherical Coordinates](./curvcoord.md#gradient-in-spherical-coordinates)
+    - [Divergence in Spherical Coordinates](./curvcoord.md#divergence-in-spherical-coordinates)
+    - [Curl in Spherical Coordinates](./curvcoord.md#curl-in-spherical-coordinates)
+    - [Gradient in Cylindrical Coordinates](./curvcoord.md#gradient-in-cylindrical-coordinates)
+    - [Divergence in Cylindrical Coordinates](./curvcoord.md#divergence-in-cylindrical-coordinates)
+    - [Curl in Cylindrical Coordinates](./curvcoord.md#curl-in-cylindrical-coordinates)
+  - [1.4.4 Generalized Curvilinear Coordinates (Landau)](./curvcoord.md#144-generalized-curvilinear-coordinates-landau)
+  - [1.4.5 Covariant and Contravariant Basis Vectors (Landau)](./curvcoord.md#145-covariant-and-contravariant-basis-vectors-landau)
+  - [1.4.6 Visualizing Curvilinear Systems (Feynman)](./curvcoord.md#146-visualizing-curvilinear-systems-feynman)
+  - [1.4.7 Solving Laplace’s Equation in Curvilinear Coordinates (Griffiths)](./curvcoord.md#147-solving-laplaces-equation-in-curvilinear-coordinates-griffiths)
+
 
 
