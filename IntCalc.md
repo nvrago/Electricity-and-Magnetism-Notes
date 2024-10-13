@@ -276,7 +276,7 @@ The **retarded potential** describes how electromagnetic signals propagate with 
   </p>
   
   <p align="center">
-  where $t_r = t - \frac{|\mathbf{r} - \mathbf{r}'|}{c}$ is the **retarded time**.
+  where $t_r = t - \frac{|\mathbf{r} - \mathbf{r}'|}{c}$ is the <strong>retarded time</strong>.
   </p>
   
 #### Physical Significance:
