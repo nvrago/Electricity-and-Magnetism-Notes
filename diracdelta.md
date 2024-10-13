@@ -10,9 +10,10 @@ The Dirac delta function is defined by two key properties:
   <p align="center">
   $$\delta(x) = 0 \quad \text{for} \quad x \neq 0$$
   </p>
-  
+  <p align="center">
   The delta function is zero everywhere except at $x = 0$.
-
+  </p>
+  
 - **Sifting Property**:
   For any smooth function $f(x)$,
 
