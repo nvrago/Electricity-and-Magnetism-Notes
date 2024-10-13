@@ -61,4 +61,10 @@
   - [1.5.6 Feynman's Interpretation of the Delta Function](./delta_function.md#156-feynmans-interpretation-of-the-delta-function)
   - [1.5.7 Delta Function in Fourier Transforms](./delta_function.md#157-delta-function-in-fourier-transforms)
 
+- [1.6 The Theory of Vector Fields](./vector_fields.md)
+  - [1.6.1 The Helmholtz Theorem](./vector_fields.md#161-the-helmholtz-theorem)
+  - [1.6.2 Potentials](./vector_fields.md#162-potentials)
+  - [1.6.3 Helmholtz Decomposition in Continuous Media (Landau)](./vector_fields.md#163-helmholtz-decomposition-in-continuous-media-landau)
+  - [1.6.4 Feynman on Vector Potentials](./vector_fields.md#164-feynman-on-vector-potentials)
+  - [1.6.5 Vector Potentials in Earlier Griffiths Editions](./vector_fields.md#165-vector-potentials-in-earlier-griffiths-editions)
 
