@@ -23,7 +23,7 @@ $$
 \mathbf{B} = \lambda \mathbf{A}
 $$
 
-This changes the magnitude of the vector but not the direction (unless \( \lambda \) is negative, which reverses the direction). This operation is crucial in both the electric field and magnetic field analysis when dealing with magnitudes of forces or fields. <br>
+This changes the magnitude of the vector but not the direction (unless $\( \lambda \)$ is negative, which reverses the direction). This operation is crucial in both the electric field and magnetic field analysis when dealing with magnitudes of forces or fields. <br>
 
 ### Dot Product
 The dot product (or scalar product) of two vectors **A** and **B** is defined as:
@@ -32,7 +32,7 @@ $$
 \mathbf{A} \cdot \mathbf{B} = AB \cos \theta
 $$
 
-Where \( \theta \) is the angle between **A** and **B**. This operation results in a scalar and is **commutative**:
+Where $\( \theta \)$ is the angle between **A** and **B**. This operation results in a scalar and is **commutative**:
 
 $$
 \mathbf{A} \cdot \mathbf{B} = \mathbf{B} \cdot \mathbf{A}
@@ -41,13 +41,13 @@ $$
 The dot product is essential in electrodynamics, particularly in expressing the work done by a force over a distance or in calculating the projection of one vector onto another. <br>
 
 #### Physical Significance in Electrodynamics:
-In the context of electric fields, the dot product is used to compute the flux of a field through a surface. The electric flux \( \Phi \) through a surface \( S \) is given by:
+In the context of electric fields, the dot product is used to compute the flux of a field through a surface. The electric flux $\( \Phi \)$ through a surface $\( S \)$ is given by:
 
 $$
 \Phi = \int_S \mathbf{E} \cdot d\mathbf{A}
 $$
 
-where \( d\mathbf{A} \) is a surface element vector normal to the surface. <br>
+where $\( d\mathbf{A} \)$ is a surface element vector normal to the surface. <br>
 
 ### Cross Product
 The cross product (or vector product) results in a vector that is **perpendicular** to the plane defined by **A** and **B**:
@@ -82,7 +82,7 @@ $$
 \mathbf{A} = A_x \mathbf{\hat{i}} + A_y \mathbf{\hat{j}} + A_z \mathbf{\hat{k}}
 $$
 
-Where \( \mathbf{\hat{i}}, \mathbf{\hat{j}}, \mathbf{\hat{k}} \) are the unit vectors along the \( x \), \( y \), and \( z \) axes, respectively. The magnitude of the vector is given by:
+Where $\( \mathbf{\hat{i}}, \mathbf{\hat{j}}, \mathbf{\hat{k}} \)$ are the unit vectors along the $\( x \), \( y \), and \( z \)$ axes, respectively. The magnitude of the vector is given by:
 
 $$
 |\mathbf{A}| = \sqrt{A_x^2 + A_y^2 + A_z^2}
@@ -91,7 +91,7 @@ $$
 This form simplifies vector operations like the dot and cross product, which can be calculated component-wise. <br>
 
 ### Dot Product in Component Form
-For vectors \( \mathbf{A} = A_x \mathbf{\hat{i}} + A_y \mathbf{\hat{j}} + A_z \mathbf{\hat{k}} \) and \( \mathbf{B} = B_x \mathbf{\hat{i}} + B_y \mathbf{\hat{j}} + B_z \mathbf{\hat{k}} \), the dot product is:
+For vectors $\( \mathbf{A} = A_x \mathbf{\hat{i}} + A_y \mathbf{\hat{j}} + A_z \mathbf{\hat{k}} \) and \( \mathbf{B} = B_x \mathbf{\hat{i}} + B_y \mathbf{\hat{j}} + B_z \mathbf{\hat{k}} \)$, the dot product is:
 
 $$
 \mathbf{A} \cdot \mathbf{B} = A_x B_x + A_y B_y + A_z B_z
@@ -169,7 +169,7 @@ In Landau's treatment of **macroscopic electrodynamics**, the separation vector 
 
 ## 1.1.5 How Vectors Transform
 
-Vectors transform according to specific rules under rotations or other coordinate transformations. For instance, under a rotation matrix **R**, the transformed vector \( \mathbf{A'} \) is:
+Vectors transform according to specific rules under rotations or other coordinate transformations. For instance, under a rotation matrix **R**, the transformed vector $\( \mathbf{A'} \)$ is:
 
 $$
 \mathbf{A'} = \mathbf{R} \mathbf{A}
