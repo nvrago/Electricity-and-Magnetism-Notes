@@ -67,4 +67,4 @@
   - [1.6.5 Vector Potentials in Earlier Griffiths Editions](./vector_fields.md#165-vector-potentials-in-earlier-griffiths-editions)
 
 ---
-### Section 1: Vector Analysis
+### Section 1: Electrostatics
