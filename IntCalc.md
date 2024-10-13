@@ -224,3 +224,56 @@ This allows us to incorporate point sources into the mathematical framework of e
 #### Insight from Landau:
 Landau discusses the Dirac delta function in the context of **point sources** in fields and how this distribution simplifies the treatment of isolated charges. The delta function's ability to localize quantities at a point is critical in solving field equations in both electrostatics and magnetostatics.
 
+<br>
+
+## 1.3.7 The Helmholtz Theorem
+
+The **Helmholtz theorem** states that any sufficiently smooth vector field can be decomposed into an **irrotational (curl-free)** and a **solenoidal (divergence-free)** component.
+
+- **Mathematical Formulation**:
+  $$
+  \mathbf{F} = -\nabla \phi + \nabla \times \mathbf{A}
+  $$
+  where $\phi$ is a scalar potential (representing the irrotational component) and $\mathbf{A}$ is the vector potential (representing the solenoidal component).
+
+#### Physical Significance:
+The Helmholtz decomposition is critical in electrodynamics, where the electric field can be derived from a scalar potential $\phi$, and the magnetic field from a vector potential $\mathbf{A}$.
+
+#### Insight from Feynman:
+Feynman uses the **Helmholtz theorem** to explain the **structure of electromagnetic fields**, showing how the curl and divergence of fields determine the form of their potentials. This decomposition is particularly useful in solving for **electromagnetic radiation** and **waves**.
+
+<br>
+
+## 1.3.8 Green's Theorems and Boundary Value Problems
+
+**Green's theorems** are powerful tools for solving **boundary value problems** in electrodynamics, relating surface integrals to volume integrals.
+
+- **Green's First Theorem** relates the integral of a scalar function and its Laplacian over a volume to the values of the function on the surface:
+  $$
+  \int_V (\nabla^2 \phi) \, dV = \oint_S \mathbf{n} \cdot \nabla \phi \, dA
+  $$
+
+#### Physical Significance:
+Green’s theorems are particularly useful in solving **Laplace’s equation** for electrostatics and in finding the potential inside cavities or near conductors.
+
+#### Insight from Landau:
+Landau employs Green’s theorems to solve boundary problems in **continuous media** and **conductors**, where the behavior of fields at the surface is essential to determining the overall field configuration.
+
+<br>
+
+## 1.3.9 The Retarded Potential
+
+The **retarded potential** describes how electromagnetic signals propagate with finite speed, incorporating the time delay for fields to reach a point from their source.
+
+- **Mathematical Formulation**:
+  The scalar potential at a point due to a time-varying source is given by:
+  $$
+  \phi(\mathbf{r}, t) = \frac{1}{4\pi \epsilon_0} \int \frac{\rho(\mathbf{r}', t_r)}{|\mathbf{r} - \mathbf{r}'|} d^3r'
+  $$
+  where $t_r = t - \frac{|\mathbf{r} - \mathbf{r}'|}{c}$ is the **retarded time**.
+
+#### Physical Significance:
+The retarded potential is essential for understanding the **propagation of electromagnetic waves** and **radiation** from accelerating charges.
+
+#### Insight from Feynman:
+Feynman introduces the concept of **retarded potentials** to explain how fields radiate outward from a source and discusses their significance in understanding **causality** and **signal propagation** in electromagnetism.
