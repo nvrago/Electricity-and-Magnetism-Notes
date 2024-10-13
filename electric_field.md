@@ -136,15 +136,11 @@ In earlier editions of **Griffiths**, there is a detailed discussion on **spheri
 
 - **Outside the Sphere**: The electric field behaves as if all the charge were concentrated at the center.
 
-  <p assign="center">
   $$\mathbf{E} = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2} \hat{\mathbf{r}} \quad \text{for} \, r > R$$
-  </p>
   
 - **Inside the Sphere**: The field increases linearly with distance from the center.
 
-  <p assign="center">
-  $$\mathbf{E} = \frac{1}{4 \pi \epsilon_0} \frac{Qr}{R^3} \hat{\mathbf{r}} \quad \text{for} \, r < R $$
-  </p> 
+  $$\mathbf{E} = \frac{1}{4 \pi \epsilon_0} \frac{Qr}{R^3} \hat{\mathbf{r}} \quad \text{for} \, r < R$$
   
 This approach is important for analyzing charge distributions with spherical symmetry, such as in **conducting spheres** and **charged shells**.
 
