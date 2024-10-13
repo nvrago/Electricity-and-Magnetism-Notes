@@ -110,9 +110,7 @@ In **Landau’s Electrodynamics of Continuous Media**, conductors are examined i
 
 - The **electric displacement field** $\mathbf{D}$ plays an important role in describing the interaction between the conductor and the surrounding dielectric:
 
-  $$
-  \nabla \cdot \mathbf{D} = \rho_{\text{free}}
-  $$
+  $$\nabla \cdot \mathbf{D} = \rho_{\text{free}}$$
 
 Where $\rho_{\text{free}}$ represents the free charges on the surface of the conductor.
 
