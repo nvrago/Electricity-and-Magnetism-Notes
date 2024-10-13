@@ -242,9 +242,10 @@ A **pseudovector** (or axial vector) behaves differently from an ordinary vector
   
 - **Physical Significance**: Pseudovectors arise naturally in situations involving **rotational symmetry** and **cross products**. For example, the magnetic field $\mathbf{B}$ produced by a current $\mathbf{I}$ can be written as:
   
-  ```math
-  $$\mathbf{B} \propto \mathbf{r} \times \mathbf{I}$$
-  ```
+  $$
+  \mathbf{B} \propto \mathbf{r} \times \mathbf{I}
+  $$
+
   which shows its dependence on the cross product.
 
 #### Insight from Landau:
