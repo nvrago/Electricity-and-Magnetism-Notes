@@ -1,8 +1,6 @@
 # Electricity and Magnetism Notes
-
 ---
 ## Table of Contents
-
 ---
 ### Section 1: Vector Analysis
 
@@ -68,3 +66,5 @@
   - [1.6.4 Feynman on Vector Potentials](./vector_fields.md#164-feynman-on-vector-potentials)
   - [1.6.5 Vector Potentials in Earlier Griffiths Editions](./vector_fields.md#165-vector-potentials-in-earlier-griffiths-editions)
 
+---
+### Section 1: Vector Analysis
