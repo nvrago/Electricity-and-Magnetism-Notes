@@ -52,5 +52,13 @@
   - [1.4.6 Visualizing Curvilinear Systems (Feynman)](./curvcoord.md#146-visualizing-curvilinear-systems-feynman)
   - [1.4.7 Solving Laplace’s Equation in Curvilinear Coordinates (Griffiths)](./curvcoord.md#147-solving-laplaces-equation-in-curvilinear-coordinates-griffiths)
 
+- [1.5 The Dirac Delta Function](./delta_function.md)
+  - [1.5.1 Definition and Properties](./delta_function.md#151-definition-and-properties)
+  - [1.5.2 Integral Representations](./delta_function.md#152-integral-representations)
+  - [1.5.3 Delta Function in Higher Dimensions](./delta_function.md#153-delta-function-in-higher-dimensions)
+  - [1.5.4 Derivatives of the Delta Function](./delta_function.md#154-derivatives-of-the-delta-function)
+  - [1.5.5 The Delta Function in Continuous Media (Landau)](./delta_function.md#155-the-delta-function-in-continuous-media-landau)
+  - [1.5.6 Feynman's Interpretation of the Delta Function](./delta_function.md#156-feynmans-interpretation-of-the-delta-function)
+  - [1.5.7 Delta Function in Fourier Transforms](./delta_function.md#157-delta-function-in-fourier-transforms)
 
 
