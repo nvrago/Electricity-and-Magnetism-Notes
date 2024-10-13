@@ -7,23 +7,23 @@ The **Dirac delta function**, denoted $\delta(x)$, is a powerful mathematical to
 The Dirac delta function is defined by two key properties:
 
 - **Localization**:
-  $$
-  \delta(x) = 0 \quad \text{for} \quad x \neq 0
-  $$
+  
+  $$\delta(x) = 0 \quad \text{for} \quad x \neq 0$$
+
   The delta function is zero everywhere except at $x = 0$.
 
 - **Sifting Property**:
   For any smooth function $f(x)$,
-  $$
-  \int_{-\infty}^{\infty} f(x) \delta(x - x_0) \, dx = f(x_0)
-  $$
+  
+  $$\int_{-\infty}^{\infty} f(x) \delta(x - x_0) \, dx = f(x_0)$$
+  
   This property is also known as the **sifting** or **sampling property** of the Dirac delta function, where it "picks out" the value of the function at $x = x_0$.
 
 #### Applications in Electrodynamics:
 The Dirac delta function is essential in **electrostatics** to represent point charges. For example, the **charge density** of a point charge $q$ at position $\mathbf{r}_0$ is written as:
-$$
-\rho(\mathbf{r}) = q \delta(\mathbf{r} - \mathbf{r}_0)
-$$
+
+$$\rho(\mathbf{r}) = q \delta(\mathbf{r} - \mathbf{r}_0)$$
+
 This allows the point charge to be described within the continuous framework of Maxwell’s equations.
 
 <br>
