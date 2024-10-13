@@ -227,3 +227,49 @@ In electrodynamics, vector transformations ensure that physical laws hold true i
 ### Insight from Landau:
 Landau explores vector transformations extensively when dealing with **tensor fields**, highlighting how electric and magnetic fields transform under rotations and reflections. The behavior of vectors under these transformations is essential for understanding the **Lorentz transformation** in relativistic electrodynamics.
 
+<br>
+
+#### 1.1.6 Pseudovectors and Chirality
+
+A **pseudovector** (or axial vector) behaves differently from an ordinary vector under coordinate inversion. In electrodynamics, the magnetic field $\mathbf{B}$ is a typical example of a pseudovector.
+
+- **Mathematical Definition**: A vector $\mathbf{V}$ is a pseudovector if it transforms as follows under inversion:
+  $$
+  \mathbf{V'} = - \mathbf{V} \quad (\text{under inversion of coordinates,} \mathbf{r} \to -\mathbf{r})
+  $$
+
+  In contrast, true vectors reverse their components under inversion, but pseudovectors like $\mathbf{B}$ retain their directionality.
+  
+- **Physical Significance**: Pseudovectors arise naturally in situations involving **rotational symmetry** and **cross products**. For example, the magnetic field $\mathbf{B}$ produced by a current $\mathbf{I}$ can be written as:
+  $$
+  \mathbf{B} \propto \mathbf{r} \times \mathbf{I}
+  $$
+  which shows its dependence on the cross product.
+
+#### Insight from Landau:
+Landau emphasizes that **pseudovectors** are essential in describing **magnetization** and **angular momentum** in continuous media, especially when dealing with magnetostatics and material properties that exhibit rotational symmetry.
+
+#### Further Insight from Feynman:
+Feynman highlights how **chirality** (or handedness) is a fundamental concept in electromagnetism, especially in the application of the **right-hand rule** for the cross product. The cross product creates a natural asymmetry in the geometry of electromagnetism, leading to the pseudovector nature of magnetic fields.
+
+<br>
+
+#### 1.1.7 Tensors and Higher-Order Products
+
+In electrodynamics, **tensors** are generalizations of vectors and scalars. Second-rank tensors, for example, are important in analyzing fields in anisotropic media.
+
+- **Mathematical Definition**: A second-rank tensor $T_{ij}$ is an array of components that transform like products of vector components under a change of coordinates. For example, the **stress-energy tensor** describes how the electromagnetic field distributes energy and momentum in space.
+
+- **Applications in Electrodynamics**:
+  - The **permittivity tensor** $\epsilon_{ij}$ in an anisotropic medium dictates how the electric field interacts with the medium:
+    $$
+    \mathbf{D}_i = \epsilon_{ij} \mathbf{E}_j
+    $$
+    where $\mathbf{D}$ is the electric displacement field and $\mathbf{E}$ is the electric field.
+
+#### Insight from Landau:
+Landau introduces tensors extensively in his treatment of **continuous media**, where they are used to describe material properties like **polarization** and **permittivity** in various directions, especially in materials with complex internal structure like crystals.
+
+#### Further Insight:
+Feynman discusses tensors briefly in the context of **generalized forces** and stresses their importance in capturing the relationships between different directions in a field, particularly in **non-uniform media**.
+
