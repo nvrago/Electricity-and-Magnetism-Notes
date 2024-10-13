@@ -88,15 +88,11 @@ This integral sums the contributions to the potential from each infinitesimal ch
 For a uniformly charged sphere with total charge $Q$ and radius $R$:
 - **Outside the sphere** ($r \geq R$):
   
-  $$ 
-  \phi(r) = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r}
-  $$
+  $$\phi(r) = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r}$$
 
 - **Inside the sphere** ($r < R$):
 
-  $$ 
-  \phi(r) = \frac{1}{4 \pi \epsilon_0} \frac{Q}{2R} \left(3 - \frac{r^2}{R^2} \right)
-  $$
+  $$\phi(r) = \frac{1}{4 \pi \epsilon_0} \frac{Q}{2R} \left(3 - \frac{r^2}{R^2} \right)$$
 
 This shows how the potential behaves differently inside and outside a uniformly charged spherical shell or solid sphere.
 
