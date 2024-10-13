@@ -68,3 +68,13 @@
 
 ---
 ### Section 2: Electrostatics
+
+- [2.1 The Electric Field](./electric_field.md)
+  - [2.1.1 Introduction](./electric_field.md#211-introduction)
+  - [2.1.2 Coulomb’s Law](./electric_field.md#212-coulombs-law)
+  - [2.1.3 The Electric Field](./electric_field.md#213-the-electric-field)
+  - [2.1.4 Continuous Charge Distributions](./electric_field.md#214-continuous-charge-distributions)
+  - [2.1.5 Electrostatic Fields in Continuous Media (Landau)](./electric_field.md#215-electrostatic-fields-in-continuous-media-landau)
+  - [2.1.6 Feynman’s Intuition on Electric Fields](./electric_field.md#216-feynmans-intuition-on-electric-fields)
+  - [2.1.7 Electric Fields from Spherical Charge Distributions (Griffiths)](./electric_field.md#217-electric-fields-from-spherical-charge-distributions-griffiths)
+
