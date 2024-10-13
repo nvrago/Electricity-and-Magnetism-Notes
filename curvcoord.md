@@ -62,14 +62,14 @@ Cylindrical coordinates $(\rho, \phi, z)$ are useful for problems with cylindric
 For a scalar field $f(r, \theta, \phi)$, the gradient in spherical coordinates is:
 
 <p align="center">
-$\nabla f = \frac{\partial f}{\partial r} \mathbf{\hat{r}} + \frac{1}{r} \frac{\partial f}{\partial \theta} \mathbf{\hat{\theta}} + \frac{1}{r \sin \theta} \frac{\partial f}{\partial \phi} \mathbf{\hat{\phi}}$.
+$\nabla f = \frac{\partial f}{\partial r} \mathbf{\hat{r}} + \frac{1}{r} \frac{\partial f}{\partial \theta} \mathbf{\hat{\theta}} + \frac{1}{r \sin \theta} \frac{\partial f}{\partial \phi} \mathbf{\hat{\phi}}$
 </p>
 
 ### Divergence in Spherical Coordinates
 The divergence of a vector field $\mathbf{A}(r, \theta, \phi)$ is:
 
 <p align="center">
-$\nabla \cdot \mathbf{A} = \frac{1}{r^2} \frac{\partial}{\partial r} (r^2 A_r) + \frac{1}{r \sin \theta} \frac{\partial}{\partial \theta} (\sin \theta A_\theta) + \frac{1}{r \sin \theta} \frac{\partial A_\phi}{\partial \phi}$.
+$\nabla \cdot \mathbf{A} = \frac{1}{r^2} \frac{\partial}{\partial r} (r^2 A_r) + \frac{1}{r \sin \theta} \frac{\partial}{\partial \theta} (\sin \theta A_\theta) + \frac{1}{r \sin \theta} \frac{\partial A_\phi}{\partial \phi}$
 </p>
 
 ### Curl in Spherical Coordinates
@@ -83,21 +83,21 @@ $$ \nabla \times \mathbf{A} = \frac{1}{r \sin \theta} \begin{vmatrix} \mathbf{\h
 For a scalar function $f(\rho, \phi, z)$, the gradient is:
 
 <p align="center">
-$\nabla f = \frac{\partial f}{\partial \rho} \mathbf{\hat{\rho}} + \frac{1}{\rho} \frac{\partial f}{\partial \phi} \mathbf{\hat{\phi}} + \frac{\partial f}{\partial z} \mathbf{\hat{z}}$.
+$\nabla f = \frac{\partial f}{\partial \rho} \mathbf{\hat{\rho}} + \frac{1}{\rho} \frac{\partial f}{\partial \phi} \mathbf{\hat{\phi}} + \frac{\partial f}{\partial z} \mathbf{\hat{z}}$
 </p>
 
 ### Divergence in Cylindrical Coordinates
 The divergence of a vector field $\mathbf{A}(\rho, \phi, z)$ is:
 
 <p align="center">
-$\nabla \cdot \mathbf{A} = \frac{1}{\rho} \frac{\partial}{\partial \rho} (\rho A_\rho) + \frac{1}{\rho} \frac{\partial A_\phi}{\partial \phi} + \frac{\partial A_z}{\partial z}$.
+$\nabla \cdot \mathbf{A} = \frac{1}{\rho} \frac{\partial}{\partial \rho} (\rho A_\rho) + \frac{1}{\rho} \frac{\partial A_\phi}{\partial \phi} + \frac{\partial A_z}{\partial z}$
 </p>
 
 ### Curl in Cylindrical Coordinates
 The curl of a vector field $\mathbf{A}(\rho, \phi, z)$ is:
 
 <p align="center">
-$\nabla \times \mathbf{A} = \left( \frac{1}{\rho} \frac{\partial A_z}{\partial \phi} - \frac{\partial A_\phi}{\partial z} \right) \mathbf{\hat{\rho}} + \cdots$.
+$$ \nabla \times \mathbf{A} = \frac{1}{\rho} \begin{vmatrix} \mathbf{\hat{\rho}} & \rho\mathbf{\hat{\phi}} & \mathbf{\hat{z}} \\ \frac{\partial}{\partial \rho} & \frac{\partial}{\partial \phi} & \frac{\partial}{\partial z} \\ A_{\rho} & \rho A_{\phi} & A_{z} \end{vmatrix} = \left( \frac{1}{\rho} \frac{\partial A_z}{\partial \phi} - \frac{\partial A_{\phi}}{\partial z} \right) \mathbf{\hat{\rho}} + \left( \frac{\partial A_{\rho}}{\partial z} - \frac{\partial A_z}{\partial \rho} \right) \mathbf{\hat{\phi}} + \frac{1}{\rho} \left( \frac{\partial}{\partial \rho} \left( \rho A_{\phi} \right) - \frac{\partial A_{\rho}}{\partial \phi} \right) \mathbf{\hat{z}} $$
 </p>
 
 These forms are essential for solving electromagnetism problems in different curvilinear coordinates.
