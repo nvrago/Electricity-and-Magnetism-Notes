@@ -104,3 +104,11 @@
   - [2.4.4 Comments on Electrostatic Energy](./work_energy_electrostatics.md#244-comments-on-electrostatic-energy)
   - [2.4.5 Energy in Continuous Media (Landau)](./work_energy_electrostatics.md#245-energy-in-continuous-media-landau)
   - [2.4.6 Feynman on Electrostatic Energy](./work_energy_electrostatics.md#246-feynman-on-electrostatic-energy)
+
+ - [2.5 Conductors](./conductors.md)
+  - [2.5.1 Basic Properties](./conductors.md#251-basic-properties)
+  - [2.5.2 Induced Charges](./conductors.md#252-induced-charges)
+  - [2.5.3 Surface Charge and the Force on a Conductor](./conductors.md#253-surface-charge-and-the-force-on-a-conductor)
+  - [2.5.4 Capacitors](./conductors.md#254-capacitors)
+  - [2.5.5 Conductors in Continuous Media (Landau)](./conductors.md#255-conductors-in-continuous-media-landau)
+  - [2.5.6 Feynman on Conductors and Capacitors](./conductors.md#256-feynman-on-conductors-and-capacitors)
