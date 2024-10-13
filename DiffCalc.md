@@ -245,9 +245,9 @@ A **Lie derivative** describes how a vector field changes along the flow of anot
 
 - **Mathematical Insight**: For a vector field $\mathbf{V}$ and a flow described by the vector field $\mathbf{F}$, the **Lie derivative** $L_{\mathbf{F}} \mathbf{V}$ gives the rate of change of $\mathbf{V}$ along $\mathbf{F}$:
 <br>
-```math
+<p align="center">
 $L_{\mathbf{F}} \mathbf{V} = [\mathbf{F}, \mathbf{V}] = \mathbf{F} \cdot \nabla \mathbf{V} - \mathbf{V} \cdot \nabla \mathbf{F}$
-```
+</p>
 #### Physical Significance:
 In electromagnetism, **Lie derivatives** help describe the time evolution and **flow of energy** in fields, especially in time-varying fields and waves.
 
