@@ -72,27 +72,31 @@ For a spherically symmetric charge distribution, the electric field at a distanc
 
 - **Outside the sphere** ($r > R$):
 
-  $$ 
-  \mathbf{E} = \frac{1}{4 \pi \epsilon_0} \frac{Q_{\text{enc}}}{r^2} \hat{\mathbf{r}} 
-  $$
-
+  <p assign="center">
+  $$\mathbf{E} = \frac{1}{4 \pi \epsilon_0} \frac{Q_{\text{enc}}}{r^2} \hat{\mathbf{r}}$$
+  </p>
+  
 - **Inside the sphere** ($r < R$ for a uniformly charged sphere):
 
-  $$ 
-  \mathbf{E} = \frac{1}{4 \pi \epsilon_0} \frac{Q_{\text{enc}} r}{R^3} \hat{\mathbf{r}} 
-  $$
+  <p assign="center">
+  $$\mathbf{E} = \frac{1}{4 \pi \epsilon_0} \frac{Q_{\text{enc}} r}{R^3} \hat{\mathbf{r}}$$
+  </p>
 
 ### 2. Cylindrical Symmetry
 For a long, uniformly charged cylinder with charge per unit length $\lambda$, the electric field at a distance $r$ from the axis is:
 
 - **Outside the cylinder** ($r > R$):
 
+  <p assign="center">
   $$\mathbf{E} = \frac{\lambda}{2 \pi \epsilon_0 r} \hat{\mathbf{r}}$$
-
+  </p>
+  
 - **Inside the cylinder** ($r < R$):
 
+  <p assign="center">
   $$\mathbf{E} = 0$$
-
+  </p>
+  
 ### 3. Planar Symmetry
 For an infinite plane with uniform surface charge density $\sigma$, the electric field near the plane is:
 
