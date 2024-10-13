@@ -86,3 +86,14 @@
   - [2.2.5 The Displacement Field and Gauss’s Law in Media (Landau)](./divergence_curl_electrostatic.md#225-the-displacement-field-and-gausss-law-in-media-landau)
   - [2.2.6 Feynman’s Insights on Electric Flux and Field Lines](./divergence_curl_electrostatic.md#226-feynmans-insights-on-electric-flux-and-field-lines)
   - [2.2.7 Field Lines and Potential in Earlier Editions of Griffiths](./divergence_curl_electrostatic.md#227-field-lines-and-potential-in-earlier-editions-of-griffiths)
+
+- [2.3 Electric Potential](./electric_potential.md)
+  - [2.3.1 Introduction to Potential](./electric_potential.md#231-introduction-to-potential)
+  - [2.3.2 Comments on Potential](./electric_potential.md#232-comments-on-potential)
+  - [2.3.3 Poisson’s Equation and Laplace’s Equation](./electric_potential.md#233-poissons-equation-and-laplaces-equation)
+  - [2.3.4 The Potential of a Localized Charge Distribution](./electric_potential.md#234-the-potential-of-a-localized-charge-distribution)
+  - [2.3.5 Boundary Conditions](./electric_potential.md#235-boundary-conditions)
+  - [2.3.6 The Potential in Continuous Media (Landau)](./electric_potential.md#236-the-potential-in-continuous-media-landau)
+  - [2.3.7 Feynman on Electric Potential and Energy](./electric_potential.md#237-feynman-on-electric-potential-and-energy)
+  - [2.3.8 Multipole Expansion of the Potential (Griffiths)](./electric_potential.md#238-multipole-expansion-of-the-potential-griffiths)
+
