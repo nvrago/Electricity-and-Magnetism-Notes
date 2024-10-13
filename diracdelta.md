@@ -68,9 +68,9 @@ This is key in simplifying many problems in electrostatics and electromagnetism.
 
 The Dirac delta function’s derivatives are often used in electrodynamics, especially when dealing with discontinuities in fields. The derivative of the delta function is defined in a distributional sense:
 
-$$
-\int_{-\infty}^{\infty} f(x) \delta'(x - x_0) \, dx = -f'(x_0)
-$$
+<p align="center">
+$$\int_{-\infty}^{\infty} f(x) \delta'(x - x_0) \, dx = -f'(x_0)$$
+</p>
 
 This is useful for calculating the electric field produced by a **dipole**, where the charge distribution is represented by a derivative of the delta function.
 
@@ -90,16 +90,20 @@ In **Landau's Electrodynamics of Continuous Media**, the Dirac delta function is
 
 - **Application in Polarization**:
   When analyzing dielectric materials, the **bound charge density** is expressed in terms of the polarization $\mathbf{P}$:
-  $$
-  \rho_{\text{bound}} = -\nabla \cdot \mathbf{P}
-  $$
+
+  <p align="center">
+  $$\rho_{\text{bound}} = -\nabla \cdot \mathbf{P}$$
+  </p>
+  
   If the polarization is concentrated at a point, the delta function is used to model the localized charge distribution.
 
 - **Application in Magnetization**:
   Similarly, for magnetized materials, the **bound current density** can be expressed using the curl of the magnetization $\mathbf{M}$:
-  $$
-  \mathbf{J}_{\text{bound}} = \nabla \times \mathbf{M}
-  $$
+
+  <p align="center">
+  $$\mathbf{J}_{\text{bound}} = \nabla \times \mathbf{M}$$
+  </p>
+  
   Delta functions are used to represent the concentration of magnetization at specific points within the material.
 
 <br>
@@ -110,9 +114,10 @@ In the **Feynman Lectures on Physics**, Feynman provides an intuitive understand
 
 - **Feynman’s Example:**
   He uses the example of a **pulse of light** or a **localized charge** to show how a function with finite width can be described in the limit as a delta function:
-  $$
-  \lim_{\epsilon \to 0} \frac{1}{\epsilon \sqrt{\pi}} e^{-(x/\epsilon)^2} = \delta(x)
-  $$
+
+  <p align="center">
+  $$\lim_{\epsilon \to 0} \frac{1}{\epsilon \sqrt{\pi}} e^{-(x/\epsilon)^2} = \delta(x)$$
+  </p>
 
   Feynman emphasizes that the delta function is an idealization that helps simplify calculations but must be used carefully in physical contexts where real distributions have finite width.
 
@@ -124,10 +129,11 @@ In earlier editions of **Griffiths**, the Dirac delta function is extensively us
 
 - **Fourier Representation**:
   The delta function plays a central role in Fourier analysis, where it represents the **contribution of specific frequencies** to a wave:
-  $$
-  \delta(k - k_0) = \frac{1}{2\pi} \int_{-\infty}^{\infty} e^{i(k - k_0)x} \, dx
-  $$
 
+  <p align="center">
+  $$\delta(k - k_0) = \frac{1}{2\pi} \int_{-\infty}^{\infty} e^{i(k - k_0)x} \, dx$$
+  </p>
+  
   This is particularly useful for analyzing **wave packets** and **signal propagation** in electromagnetism, where the delta function can be used to isolate specific components of the wave.
 
 ---
