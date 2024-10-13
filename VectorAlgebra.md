@@ -234,14 +234,15 @@ Landau explores vector transformations extensively when dealing with **tensor fi
 A **pseudovector** (or axial vector) behaves differently from an ordinary vector under coordinate inversion. In electrodynamics, the magnetic field $\mathbf{B}$ is a typical example of a pseudovector.
 
 - **Mathematical Definition**: A vector $\mathbf{V}$ is a pseudovector if it transforms as follows under inversion:
-  
-  $$\mathbf{V'} = - \mathbf{V} \quad (\text{under inversion of coordinates,} \mathbf{r} \to -\mathbf{r})$$
-
+  ```math
+  \mathbf{V'} = - \mathbf{V} \quad (\text{under inversion of coordinates,} \mathbf{r} \to -\mathbf{r})
+  ```
   In contrast, true vectors reverse their components under inversion, but pseudovectors like $\mathbf{B}$ retain their directionality.
   
 - **Physical Significance**: Pseudovectors arise naturally in situations involving **rotational symmetry** and **cross products**. For example, the magnetic field $\mathbf{B}$ produced by a current $\mathbf{I}$ can be written as:
-  
-  $$\mathbf{B} \propto \mathbf{r} \times \mathbf{I}$$
+  ```math
+  \mathbf{B} \propto \mathbf{r} \times \mathbf{I}$$
+  ```
   which shows its dependence on the cross product.
 
 #### Insight from Landau:
