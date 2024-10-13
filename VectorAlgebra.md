@@ -229,11 +229,12 @@ Landau explores vector transformations extensively when dealing with **tensor fi
 
 <br>
 
-#### 1.1.6 Pseudovectors and Chirality
+## 1.1.6 Pseudovectors and Chirality
 
 A **pseudovector** (or axial vector) behaves differently from an ordinary vector under coordinate inversion. In electrodynamics, the magnetic field $\mathbf{B}$ is a typical example of a pseudovector.
 
 - **Mathematical Definition**: A vector $\mathbf{V}$ is a pseudovector if it transforms as follows under inversion:
+  
   $$
   \mathbf{V'} = - \mathbf{V} \quad (\text{under inversion of coordinates,} \mathbf{r} \to -\mathbf{r})
   $$
@@ -241,6 +242,7 @@ A **pseudovector** (or axial vector) behaves differently from an ordinary vector
   In contrast, true vectors reverse their components under inversion, but pseudovectors like $\mathbf{B}$ retain their directionality.
   
 - **Physical Significance**: Pseudovectors arise naturally in situations involving **rotational symmetry** and **cross products**. For example, the magnetic field $\mathbf{B}$ produced by a current $\mathbf{I}$ can be written as:
+  
   $$
   \mathbf{B} \propto \mathbf{r} \times \mathbf{I}
   $$
@@ -254,7 +256,7 @@ Feynman highlights how **chirality** (or handedness) is a fundamental concept in
 
 <br>
 
-#### 1.1.7 Tensors and Higher-Order Products
+## 1.1.7 Tensors and Higher-Order Products
 
 In electrodynamics, **tensors** are generalizations of vectors and scalars. Second-rank tensors, for example, are important in analyzing fields in anisotropic media.
 
