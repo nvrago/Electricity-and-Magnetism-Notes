@@ -251,9 +251,10 @@ Feynman uses the **Helmholtz theorem** to explain the **structure of electromagn
 **Green's theorems** are powerful tools for solving **boundary value problems** in electrodynamics, relating surface integrals to volume integrals.
 
 - **Green's First Theorem** relates the integral of a scalar function and its Laplacian over a volume to the values of the function on the surface:
-  $$
+  
+  ```math
   \int_V (\nabla^2 \phi) \, dV = \oint_S \mathbf{n} \cdot \nabla \phi \, dA
-  $$
+  ```
 
 #### Physical Significance:
 Green’s theorems are particularly useful in solving **Laplace’s equation** for electrostatics and in finding the potential inside cavities or near conductors.
