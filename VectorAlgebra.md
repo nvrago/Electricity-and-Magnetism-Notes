@@ -260,10 +260,10 @@ In electrodynamics, **tensors** are generalizations of vectors and scalars. Seco
 
 - **Applications in Electrodynamics**:
   - The **permittivity tensor** $\epsilon_{ij}$ in an anisotropic medium dictates how the electric field interacts with the medium:
-    $$
-    \mathbf{D}_i = \epsilon_{ij} \mathbf{E}_j
-    $$
-    where $\mathbf{D}$ is the electric displacement field and $\mathbf{E}$ is the electric field.
+    
+$\mathbf{D}_i = \epsilon_{ij} \mathbf{E}_j$
+
+where $\mathbf{D}$ is the electric displacement field and $\mathbf{E}$ is the electric field.
 
 #### Insight from Landau:
 Landau introduces tensors extensively in his treatment of **continuous media**, where they are used to describe material properties like **polarization** and **permittivity** in various directions, especially in materials with complex internal structure like crystals.
