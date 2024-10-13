@@ -113,14 +113,18 @@ In **Landau's Electrodynamics of Continuous Media**, generalized curvilinear coo
 - **Mathematical Formulation**:
   In any generalized curvilinear coordinate system $(q_1, q_2, q_3)$, the basis vectors $\mathbf{e}_i$ vary with position. The differential length element is expressed as:
 
+  <p align="center">
   $d\mathbf{l} = h_1 dq_1 \mathbf{e}_1 + h_2 dq_2 \mathbf{e}_2 + h_3 dq_3 \mathbf{e}_3$,
-
+  </p>
+  
   where $h_i$ are the **scale factors** for the curvilinear system.
 
   The scale factors play a key role in determining the gradient, divergence, and curl in these coordinates. For instance, the divergence in generalized curvilinear coordinates is:
 
+  <p align="center">
   $\nabla \cdot \mathbf{A} = \frac{1}{h_1 h_2 h_3} \left[ \frac{\partial}{\partial q_1} \left( \frac{h_2 h_3 A_1}{h_1} \right) + \frac{\partial}{\partial q_2} \left( \frac{h_1 h_3 A_2}{h_2} \right) + \frac{\partial}{\partial q_3} \left( \frac{h_1 h_2 A_3}{h_3} \right) \right]$.
-
+  </p>
+  
 #### Physical Significance:
 - This generalization is crucial for studying electromagnetic fields in **anisotropic** or **inhomogeneous materials**, where the internal geometry plays a role in the behavior of fields.
 
@@ -139,8 +143,10 @@ In more advanced treatments of vector calculus, it’s necessary to distinguish 
 
   The **covariant** and **contravariant** components of a vector $\mathbf{A}$ are related by the **metric tensor** $g_{ij}$:
 
+  <p align="center">
   $A^i = g^{ij} A_j \quad \text{and} \quad A_i = g_{ij} A^j$.
-
+  </p>
+  
 #### Physical Significance:
 This distinction is essential in **curved spaces** or **anisotropic materials** where the choice of basis vectors affects the calculation of fields.
 
@@ -165,14 +171,18 @@ In earlier editions of **Griffiths**, solutions to **Laplace’s equation** in c
 
 - **Laplace’s Equation** in spherical coordinates:
 
+  <p align="center">
   $\nabla^2 V = 0$,
-
+  </p>
+  
   becomes separable, allowing us to solve for potentials in spherical charge distributions or cavities. Solutions are expressed in terms of **Legendre polynomials** and **spherical harmonics**.
 
 - **Laplace’s Equation** in cylindrical coordinates:
 
+  <p align="center">
   $\frac{1}{\rho} \frac{\partial}{\partial \rho} \left( \rho \frac{\partial V}{\partial \rho} \right) + \frac{1}{\rho^2} \frac{\partial^2 V}{\partial \phi^2} + \frac{\partial^2 V}{\partial z^2} = 0$,
-
+  </p>
+  
   is used to describe the potential in cylindrical systems, such as the potential around an infinite line charge.
 
 #### Applications:
