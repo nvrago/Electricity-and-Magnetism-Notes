@@ -38,9 +38,9 @@ This allows the point charge to be described within the continuous framework of 
 
 The Dirac delta function can be expressed in terms of various integral representations. A commonly used form is:
 
-$$
-\delta(x) = \frac{1}{2\pi} \int_{-\infty}^{\infty} e^{ikx} \, dk
-$$
+<p align="center">
+$$\delta(x) = \frac{1}{2\pi} \int_{-\infty}^{\infty} e^{ikx} \, dk$$
+</p>
 
 This representation is useful in **Fourier transforms**, where the delta function can "select" specific components of a Fourier series.
 
@@ -50,14 +50,15 @@ This representation is useful in **Fourier transforms**, where the delta functio
 
 The Dirac delta function can be generalized to multiple dimensions. In three-dimensional space, the delta function becomes:
 
-$$
-\delta^3(\mathbf{r}) = \delta(x) \delta(y) \delta(z)
-$$
+<p align="center">
+$$\delta^3(\mathbf{r}) = \delta(x) \delta(y) \delta(z)$$
+</p>
 
 The three-dimensional Dirac delta function is used to represent point charges or masses located at a specific point in space. For instance, a point charge $q$ at $\mathbf{r}_0$ has a charge density:
-$$
-\rho(\mathbf{r}) = q \delta^3(\mathbf{r} - \mathbf{r}_0)
-$$
+
+<p align="center">
+$$\rho(\mathbf{r}) = q \delta^3(\mathbf{r} - \mathbf{r}_0)$$
+</p>
 
 This is key in simplifying many problems in electrostatics and electromagnetism.
 
