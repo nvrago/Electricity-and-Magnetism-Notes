@@ -241,9 +241,7 @@ A **pseudovector** (or axial vector) behaves differently from an ordinary vector
   
 - **Physical Significance**: Pseudovectors arise naturally in situations involving **rotational symmetry** and **cross products**. For example, the magnetic field $\mathbf{B}$ produced by a current $\mathbf{I}$ can be written as:
   
-  $$
-  \mathbf{B} \propto \mathbf{r} \times \mathbf{I}
-  $$
+  $$\mathbf{B} \propto \mathbf{r} \times \mathbf{I}$$
   which shows its dependence on the cross product.
 
 #### Insight from Landau:
@@ -262,9 +260,9 @@ In electrodynamics, **tensors** are generalizations of vectors and scalars. Seco
 
 - **Applications in Electrodynamics**:
   - The **permittivity tensor** $\epsilon_{ij}$ in an anisotropic medium dictates how the electric field interacts with the medium:
-    $$
-    \mathbf{D}_i = \epsilon_{ij} \mathbf{E}_j
-    $$
+    
+    $$\mathbf{D}_i = \epsilon_{ij} \mathbf{E}_j$$
+    
     where $\mathbf{D}$ is the electric displacement field and $\mathbf{E}$ is the electric field.
 
 #### Insight from Landau:
