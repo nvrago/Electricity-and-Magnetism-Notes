@@ -16,8 +16,9 @@ The electric potential is a scalar field whose gradient gives the electric field
 
 The **potential difference** $V_{12}$ between two points 1 and 2 is defined as the line integral of the electric field:
 
-$$V_{12} = \phi(\mathbf{r}_1) - \phi(\mathbf{r}_2) = -\int_{\mathbf{r}_1}^{\mathbf{r}_2} \mathbf{E} \cdot d\mathbf{l}$$
-
+```math
+V_{12} = \phi(\mathbf{r}_1) - \phi(\mathbf{r}_2) = -\int_{\mathbf{r}_1}^{\mathbf{r}_2} \mathbf{E} \cdot d\mathbf{l}
+```
 In practice, we often define the potential relative to some reference point, often taken at infinity where the potential is zero.
 
 #### Example:
