@@ -76,10 +76,10 @@ This is useful for calculating the electric field produced by a **dipole**, wher
 
 #### Example: Point Dipole
 For a dipole located at $\mathbf{r}_0$ with dipole moment $\mathbf{p}$, the potential can be expressed using the derivative of the delta function:
-$$
-\rho(\mathbf{r}) = -\mathbf{p} \cdot \nabla \delta^3(\mathbf{r} - \mathbf{r}_0)
-$$
 
+<p align="center">
+$$\rho(\mathbf{r}) = -\mathbf{p} \cdot \nabla \delta^3(\mathbf{r} - \mathbf{r}_0)$$
+</p>
 <br>
 
 ## **Additional Sections (from Landau, Feynman, and earlier editions of Griffiths)**
